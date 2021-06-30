@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body * {
+	/* outline:1px dashed red; */
+}
+
+body {
+	font-family: helvetica;
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto 0;
+	padding: 20px;
+	border: 1px solid #808080;
+	-webkit-box-shadow: 1px -1px 5px 13px rgba(94, 94, 94, 1);
+	-moz-box-shadow: 1px -1px 5px 13px rgba(94, 94, 94, 1);
+	box-shadow: 1px -1px 5px 13px rgba(94, 94, 94, 1);
+}
+
+h1 span {
+	border: 1px solid #808080;
+	padding: 10px;
+}
+
+form {
+	border: 2px solid #000;
+	width: 24%;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+form input[type="submit"] {
+	padding: 10px;
+}
+
+.activities {
+	overflow-y: scroll;
+	height: 200px;
+	border: 1px solid #808080;
+	padding: 10px;
+}
+
+.add-points {
+	color: green;
+}
+
+.deduct-points {
+	color: red;
+}
